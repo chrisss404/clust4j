@@ -1,20 +1,16 @@
-[![Build status](https://travis-ci.org/tgsmith61591/clust4j.svg?branch=master)](https://travis-ci.org/tgsmith61591/clust4j) 
-[![Code coverage](https://img.shields.io/codecov/c/github/tgsmith61591/clust4j/master.svg)](https://codecov.io/github/tgsmith61591/clust4j?branch=master)
-![Supported JVM](https://img.shields.io/badge/java-1.7+-blue.svg) 
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 # clust4j
-A Java-based set of __classification__ clustering algorithms. Built under JDK 1.7 and tested up to JDK 1.8. *This project is currently in ongoing development for the time being and should not be used in production environments*
+A Java-based set of __classification__ clustering algorithms. Built and tested under JDK 21. *This project is currently in ongoing development for the time being and should not be used in production environments*
 
 ___
 ### Installation:
-__clust4j 1.1.6 prerelease is now available under [releases](https://github.com/tgsmith61591/clust4j/releases)__. To build the bleeding edge, use the included gradle wrapper:
 
 ```bash
-git clone https://github.com/tgsmith61591/clust4j.git
+git clone https://github.com/chrisss404/clust4j.git
 cd clust4j
-./gradlew build ## Go grab some coffee... this takes a minute
-## jar is at build/libs/clust4j-x.x.x.jar and includes dependencies
+mvn install
+## jar is at target/clust4j-x.x.x.jar
 ```
 
 ___
